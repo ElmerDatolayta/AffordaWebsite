@@ -8,6 +8,18 @@ $('#bannerSlick').slick({
   cssEase: 'linear'
 });
 
+$('#bannerCakeSlick').slick({
+  autoplay:true,
+  autoplaySpeed: 5000,  
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear',
+  arrows: false
+});
+
+
+
 $('#productSlick').slick({
   infinite: true,
   slidesToShow: 3,
