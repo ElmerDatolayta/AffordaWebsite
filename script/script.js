@@ -44,6 +44,10 @@ $('.slider-nav').slick({
   slidesToScroll: 1,
   asNavFor: '.slider-for',
   dots: true,
+  autoplay: true,
   centerMode: false,
   focusOnSelect: true
 });
+
+$('.single-item').slick();
+
