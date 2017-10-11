@@ -201,22 +201,28 @@
     transform: translate(-50%, -50%);
 }
 .page-title{
-    font-size: 8em;
     -webkit-text-stroke-width: 4px;
     font-weight: bolder;
     text-align: center;
 }
 .page-title-wedding{
     color: #076f8c;
+    font-size: 8em;
     -webkit-text-fill-color: #076f8c;
     -webkit-text-stroke-color: #ffffff;
 }
 .page-title-birthday{
     color: #d12135;
+    font-size: 8em;
     -webkit-text-fill-color: #d12135;
     -webkit-text-stroke-color: #ffffff;
 }
-
+.page-title-corporate{
+    color: #d12135;
+    font-size: 7em;
+    -webkit-text-fill-color: #d12135;
+    -webkit-text-stroke-color: #ffffff;
+}
 
   /* Navbar Styles */
 .navbar-light .navbar-nav .nav-link {
