@@ -400,3 +400,49 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   } */
+
+
+  /* Business Opportunities*/
+
+  .affordaBusinessProduct{
+    height: 120vh;
+  }
+
+  #affordaBusinessBG
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    background-color: white;
+  }
+
+  #affordaFrozen
+  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-right: 75px;
+    margin-bottom: 50px;
+  }
+  #affordaFrozen h2{
+    font-size: 2.2em;
+    color: #076E8C;
+    font-weight: bold;
+  }
+  #affordaFrozen p{
+    text-align: justify;
+    font-size: 1.75em;
+    line-height: 1.3;
+  }
+  #affordaFrozen li{
+    font-size: 1.75em;
+  }
+
