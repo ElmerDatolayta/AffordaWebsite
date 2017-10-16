@@ -1,4 +1,6 @@
-
+body{
+	overflow-x: hidden;
+}
 /*usefull classes*/
 
 @font-face {
@@ -34,7 +36,7 @@
 	margin-top: 150px;
 }
 .overlay3{
-	background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.6);
 	width: 100%;
 }
 
@@ -51,6 +53,11 @@
 
 /*banner section*/
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid lightgray;
+    background-color: rgba(0,0,0, .1);
+}
 .text-center{
 	width: 100%;
 }
@@ -134,26 +141,63 @@ a{
 	font-weight: bolder;
 	color: red;
 	font-size: 6.5em;
-	text-shadow:
-       3px 3px 0 white,
-     -3px -3px 0 white,  
-      3px -3px 0 white,
-      -3px 3px 0 white,
-       3px 3px 0 white;
+	text-shadow: 
+	1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
 }
 #making-celebration-a-little-sweeter-2{
 	font-family: century_gothic;
 	font-weight: bold;
 	color: red;
 	font-size: 6.5em;
-	text-align: right;
-	padding-right: 12%;
-	text-shadow:
-       3px 3px 0 white,
-     -3px -3px 0 white,  
-      3px -3px 0 white,
-      -3px 3px 0 white,
-       3px 3px 0 white;
+	text-align: center;
+	text-shadow: 
+	1px 1px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
 }
 .btn-learn{
 	color: white;
@@ -245,6 +289,8 @@ a{
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
+	background-position-y: -235px;
+}
 }
 .icecream-section .slick-prev {
     left: 7px;
@@ -269,7 +315,6 @@ a{
 	font-size: 4em;
 	font-family: century_gothic;
 	font-weight: bold;
-	margin-bottom: 80px;
 }
 .single-item img{
 	width: 300px;
@@ -277,7 +322,6 @@ a{
 }
 .border{
 	border: 10px solid #2C8EB3;
-	margin-bottom: 150px;
 }
 .single-item .slick-prev {
     left: 20px;
@@ -303,8 +347,15 @@ a{
 	background-color: black;
 	margin: 15px;
 }
-.slider-for p{
+.for-md p{
 	text-indent: 40px;
+	text-align: justify;
+	font-family: century_gothic;
+}
+.for-phone-hide p{
+	text-indent: 40px;
+	text-align: justify;
+	font-family: century_gothic;
 }
 #img4{
 	opacity: 1;
@@ -346,6 +397,7 @@ div.tab button {
     transition: 0.3s;
     color: white;
     font-weight: bold;
+    font-size: 22px;
 }
 
 /* Create an active/current tablink class */
@@ -362,6 +414,55 @@ div.tab button.active {
 
 
 /*-----sectionProduct-------*/
+
+/* Products Portion Starts */
+.tabcontent {
+    display: none;
+    padding: 0px 0px;
+    border-top: none;
+}
+.car-middle img{
+	height: 300px;
+}
+.tabcontent .container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.tab {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.background-products{
+	background-color: #076f8c;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+
+.padding-zero{
+	padding: 0;
+}
+
+.font-size-25{
+	font-size: 25px;
+}
+
+.products-title{
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 30px;
+	font-family: century_gothic;
+}
+
+.swirls{
+	width: 200px;
+	display: inline-block;
+}
+
+.width-100-percent{
+	width: 100%;
+}
 
 .col-md-12.text-product {
 	font-size: 2em;
@@ -472,21 +573,19 @@ button#view:hover {
 	font-family: century_gothic;
 }
 
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
 
 /*-----API-------*/
 
-#sectionAPI {
-
-	background-color: #737373;
-
+.padding-0{
+	padding: 0px;
 }
-
-.API-map {
-
-	padding-top: 20px;
-	padding-bottom: 20px;
+.API-map{
+	border-top: 10px solid #2C8EB3;
+	margin-bottom: -10px;
 }
-
 /*-----footer------*/	
 
 .background-footer{
@@ -494,6 +593,9 @@ button#view:hover {
 	background-color: #730099;
 	 
   
+}
+.margin-0-btm{
+	margin-bottom: 0px;
 }
 
 .background-footer ul{
@@ -547,6 +649,23 @@ button#view:hover {
 	font-family: "fontawesome";
 }
 
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .slick-next {
     right: 20px;
 }
@@ -587,43 +706,64 @@ button#view:hover {
  	margin-left: 0.5%;
  }
 
-
+/*slick for mobile*/
+.for-phone-hide{
+	display: none;
+}
+.for-tablet-hide{
+	display: none;
+}
 
 /*----------------------------------*/
 
 /*-----------------------------------*/
-@media screen and (max-width: 4000px){
+@media screen and (max-width: 3000px){
 #making-celebration-a-little-sweeter{
-	font-size: 14em;
+	font-size: 10em;
 }
 #making-celebration-a-little-sweeter-2{
-	font-size: 14em;
+	font-size: 10em;
 }
 .btn-transparent{
 	padding: 20px;
 	width: 400px;
 	font-size: 40px;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: normal;
+    font-family: century_gothic;
+    font-size: 28px;
+}
 }
 
 @media screen and (max-width: 1920px){
 #making-celebration-a-little-sweeter{
-	font-size: 10em;
+	font-size: 8em;
 }
 #making-celebration-a-little-sweeter-2{
-	font-size: 10em;
+	font-size: 8em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: normal;
+    font-family: century_gothic;
+    font-size: 23px;
 }
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1480px){
 #making-celebration-a-little-sweeter{
 	font-size: 7em;
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 7em;
 }
-#banner .container1{
-	width: 70%;
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: normal;
+    font-family: century_gothic;
+    font-size: 20px;
 }
 }
 
@@ -634,8 +774,11 @@ button#view:hover {
 #making-celebration-a-little-sweeter-2{
 	font-size: 6em;
 }
-#banner .container1{
-	width: 70%;
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: normal;
+    font-family: century_gothic;
+    font-size: 17px;
 }
 .btn-transparent{
 	padding: 18px;
@@ -660,6 +803,13 @@ button#view:hover {
 	padding: 15px;
 	width: 320px;
 	border-radius: 0px;
+}
+.icecream-section{
+	background-image: url("../images/4.jpg");
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position-y: 0px;
 }
 }
 
@@ -707,7 +857,6 @@ button#view:hover {
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 3em;
-	padding-right: 10px;
 }
 #banner{
 	height: 100vh;
@@ -727,6 +876,15 @@ button#view:hover {
 .captions{
 	padding-right: 0;
 }
+.for-phone-hide{
+	display: none;
+}
+.for-tablet-hide{
+	display: block;
+}
+.for-md{
+	display: none;
+}
 }
 
 
@@ -738,7 +896,6 @@ button#view:hover {
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 2.5em;
-	padding-right: 10px;
 }
 #banner .container1{
 	width: 100%;
@@ -754,12 +911,30 @@ button#view:hover {
 @media screen and (max-width: 545px){
 #making-celebration-a-little-sweeter{
 	font-size: 2em;
-	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 2em;
-	padding-right: 10px;
-	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
+}
+.swirls {
+    width: 95px;
+    display: inline-block;
+}
+.products-title{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 30px;
+	font-family: century_gothic;
+}
+.tablinks{
+	line-height: 8px;
+}
+.text h1 {
+    color: white;
+    font-size: 2.5em;
+    font-family: century_gothic;
+    font-weight: bold;
+    margin-bottom: 80px;
 }
 }
 
@@ -771,7 +946,6 @@ button#view:hover {
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 1.8em;
-	padding-right: 10px;
 }
 .btn-transparent{
 	background-color: transparent;
@@ -783,6 +957,15 @@ button#view:hover {
 .margin-left-3{
 	margin-left: 3%;
 }
+.for-phone-hide{
+	display: block;
+}
+.for-md{
+	display: none;
+}
+.for-tablet-hide{
+	display: none;
+}
 }
 
 /*----------------------------------*/
@@ -793,7 +976,6 @@ button#view:hover {
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 1.6em;
-	padding-right: 10px;
 }
 }
 
@@ -805,7 +987,6 @@ button#view:hover {
 }
 #making-celebration-a-little-sweeter-2{
 	font-size: 1.4em;
-	padding-right: 10px;
 }
 .img1 img{
 	width: 90%;
@@ -1128,45 +1309,3 @@ button#view:hover {
 	justify-content: center;
 }
 
-/* Products Portion Starts */
-
-#sectionProducts{
-	/*height: 100vh;*/
-}
-
-.background-products{
-	background-color: #076f8c;
-	height: 280px;
-	text-transform: uppercase;
-	padding-top: 50px;
-}
-
-.padding-zero{
-	padding: 0;
-}
-
-.font-size-25{
-	font-size: 25px;
-}
-
-.products-title{
-	font-size: 50px;
-	font-weight: bold;
-	color: white;
-	margin-bottom: 30px;
-	font-family: century_gothic;
-}
-
-.swirls{
-	width: 200px;
-	display: inline-block;
-}
-
-.width-100-percent{
-	width: 100%;
-}
-.slider-for p{
-	font-family: century_gothic;
-}
-
-/* Products Portion Ends */
