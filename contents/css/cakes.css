@@ -605,6 +605,513 @@ body{
     }
 }
 
+
+
+
+/*Afforda Pastries*/
+
+#affordaPastries{
+    height: 190vh;
+}
+
+.pastryRow1{
+    padding: 0 30px;
+}
+
+.pastryItems{
+    border: 1.4px solid #076F8C;
+    border-radius: 15px;
+    height: 36%;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-right: 0;
+
+    z-index: 1;
+}
+
+.pastryItems:after, .pastryItems:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+
+}
+
+.pastryItems:after{
+    border-color: rgba(7, 111, 140, 0);
+    border-left-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryItems:before{
+    border-color: rgba(7, 111, 140, 0);
+    border-left-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryName{
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #076F8C;
+}
+
+.pastryPic{
+
+}
+.pastryPic img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.pastryDescription{
+    text-indent: 50px;
+    margin-top: 40px;
+}
+
+.pastryDescription p{
+    font-size: 1.1em;
+}
+
+.affordaButton{
+    background-color:#076E8C;
+    color: white;
+    box-shadow: 2px 2px 3px #076E8C;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.orderNow{
+    padding: 5px 30px;
+}
+
+.arrow{
+    width: 0; 
+    height: 0; 
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+    border-left: 45px solid #076F8C;
+    z-index: 1;
+}
+
+.margin-top-180px{
+    margin-top: 180px;
+}
+
+.pastyMainImg{
+    height: 36%;
+    width: 100%;
+}
+
+
+.pastrySubImg{
+    margin-top: 80px;
+    width:100%;
+    height: 300px;
+}
+
+/*Visible til break*/
+
+.pastryRow2{
+    padding: 0 30px 0 15px;
+
+}
+
+.pastryItems2{
+    border: 1.4px solid #076F8C;
+    border-radius: 15px;
+    height: 36%;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-right: 0;
+
+    z-index: 1;
+}
+
+.pastryItems2:after, .pastryItems2:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+
+}
+
+.pastryItems2:after{
+    border-color: rgba(7, 111, 140, 0);
+    border-right-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryItems2:before{
+    border-color: rgba(7, 111, 140, 0);
+    border-right-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryName2{
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #076F8C;
+}
+
+.pastryPic2{
+    display: visible;
+}
+.pastryPic2 img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.pastryDescription2{
+    text-indent: 50px;
+    margin-top: 40px;
+}
+
+.pastryDescription2 p{
+    font-size: 1.1em;
+}
+
+.affordaButton2{
+    background-color:#076E8C;
+    color: white;
+    box-shadow: 2px 2px 3px #076E8C;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.orderNow2{
+    padding: 5px 30px;
+}
+
+.pastyMainImg2{
+    height: 36%;
+    width: 100%;
+}
+
+
+.pastrySubImg2{
+    margin-top: 80px;
+    width:100%;
+    height: 300px;
+}
+
+/*Invisible til break */
+
+.pastryRow3{
+    padding: 0 30px 0 15px;
+    display: none;
+
+}
+
+.pastryItems3{
+    border: 1.4px solid #076F8C;
+    border-radius: 15px;
+    height: 36%;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-right: 0;
+
+    z-index: 1;
+
+    display: none;
+}
+
+.pastryItems3:after, .pastryItems3:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+
+}
+
+.pastryItems3:after{
+    border-color: rgba(7, 111, 140, 0);
+    border-right-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryItems3:before{
+    border-color: rgba(7, 111, 140, 0);
+    border-right-color: #076F8C;
+    border-width: 50px;
+    margin-top: -50px;
+}
+
+.pastryName3{
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #076F8C;
+    display: none;
+}
+
+.pastryPic3{
+    display: none;
+}
+.pastryPic3 img{
+    width: 100%;
+    border-radius: 100%;
+    display: none;
+}
+
+.pastryDescription3{
+    text-indent: 50px;
+    margin-top: 40px;
+    display: none;
+}
+
+.pastryDescription3 p{
+    font-size: 1.1em;
+    display: none;
+}
+
+.affordaButton3{
+    background-color:#076E8C;
+    color: white;
+    box-shadow: 2px 2px 3px #076E8C;
+    border: 1px solid white;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.orderNow3{
+    padding: 5px 30px;
+    display: none;
+}
+
+.pastyMainImg3{
+    height: 36%;
+    width: 100%;
+    display: none;
+}
+
+
+.pastrySubImg3{
+    margin-top: 80px;
+    width:100%;
+    height: 300px;
+    display: none;
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+
+    .pastryPic img{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .pastryPic2 img{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .pastyMainImg{
+        text-align: right;
+    }
+
+    .pastrySubImg{
+        margin-top: 50%;
+    }
+    .pastrySubImg2{
+        margin-top: 50%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .pastryItems:after, .pastryItems:before {
+        left: 50%;
+        top: 100%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    .pastryItems:after{
+        border-color: rgba(7, 111, 140, 0);
+        border-left-color: transparent;
+        border-top-color: #076F8C;
+        border-width: 50px;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+
+    .pastryItems:before{
+        border-color: rgba(7, 111, 140, 0);
+        border-left-color: transparent;
+        border-top-color: #076F8C;
+        border-width: 50px;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+
+/*Invisible*/
+
+   .pastryRow2{
+        display: none;
+
+    }
+
+    .pastryItems2{
+       display: none;
+    }
+
+    .pastryItems2:after, .pastryItems:before {
+        display: none;
+
+    }
+
+    .pastryItems2:after{
+      display: none;
+    }
+
+    .pastryItems2:before{
+        display: none;
+    }
+
+    .pastryName2{
+        display: none;
+    }
+
+    .pastryPic2{
+        display: none;
+    }
+    .pastryPic2 img{
+        display: none;
+    }
+
+    .pastryDescription2{
+       display: none;
+    }
+
+    .pastryDescription2 p{
+       display: none;
+    }
+
+    .affordaButton2{
+        display: none;
+    }
+
+    .orderNow2{
+        display: none;
+    }
+
+    .pastyMainImg2{
+    display: none;
+    }
+
+
+    .pastrySubImg2{
+       display: none;
+    }
+
+/*Visible*/
+    .pastryRow3{
+        display: block;
+
+    }
+
+    .pastryItems3{
+
+        display: block;
+    }
+
+    .pastryItems3:after, .pastryItems3:before {
+        left: 50%;
+        top: 100%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+
+    }
+
+    .pastryItems3:after{
+        border-color: rgba(7, 111, 140, 0);
+        border-left-color: transparent;
+        border-top-color: #076F8C;
+        border-width: 50px;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+
+    .pastryItems3:before{
+        border-color: rgba(7, 111, 140, 0);
+        border-left-color: transparent;
+        border-top-color: #076F8C;
+        border-width: 50px;
+        margin-top: 0;
+        margin-left: -50px;
+    }
+
+
+    .pastryName3{
+        display: block;
+    }
+
+    .pastryPic3{
+        display: block;
+    }
+    .pastryPic3 img{
+        display: block;
+    }
+
+    .pastryDescription3{
+        display: block;
+    }
+
+    .pastryDescription3 p{
+        display: block;
+    }
+
+    .affordaButton3{
+        display: block;
+    }
+
+    .orderNow3{
+        display: block;
+    }
+
+    .pastyMainImg3{
+        display: block;
+    }
+
+
+    .pastrySubImg3{
+        display: block;
+    }
+
+
+
+}
+
+
+
 =======
 .scroll-main a {
     z-index: 2;
