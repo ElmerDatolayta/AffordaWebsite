@@ -619,12 +619,11 @@ body{
 }
 
 .pastryItems{
-    border: 1.4px solid #076F8C;
-    border-radius: 15px;
     height: 36%;
     margin-left: 0px;
     margin-top: 50px;
     margin-right: 0;
+    box-shadow: -2px 2px 5px grey;
 
     z-index: 1;
 }
@@ -638,6 +637,7 @@ body{
     width: 0;
     position: absolute;
     pointer-events: none;
+
 
 }
 
@@ -658,7 +658,7 @@ body{
 .pastryName{
     margin: 20px 0;
     text-align: center;
-    border-bottom: 1px solid #076F8C;
+
 }
 
 .pastryPic{
@@ -672,6 +672,7 @@ body{
 .pastryDescription{
     text-indent: 50px;
     margin-top: 40px;
+    text-align: justify;
 }
 
 .pastryDescription p{
@@ -710,9 +711,9 @@ body{
 
 
 .pastrySubImg{
-    margin-top: 80px;
+    margin-top: 50px;
     width:100%;
-    height: 300px;
+    height: 345px;
 }
 
 /*Visible til break*/
@@ -723,12 +724,11 @@ body{
 }
 
 .pastryItems2{
-    border: 1.4px solid #076F8C;
-    border-radius: 15px;
     height: 36%;
     margin-left: 0px;
     margin-top: 50px;
     margin-right: 0;
+    box-shadow: 2px 2px 5px grey;
 
     z-index: 1;
 }
@@ -762,7 +762,6 @@ body{
 .pastryName2{
     margin: 20px 0;
     text-align: center;
-    border-bottom: 1px solid #076F8C;
 }
 
 .pastryPic2{
@@ -776,6 +775,7 @@ body{
 .pastryDescription2{
     text-indent: 50px;
     margin-top: 40px;
+    text-align: justify;
 }
 
 .pastryDescription2 p{
@@ -801,9 +801,9 @@ body{
 
 
 .pastrySubImg2{
-    margin-top: 80px;
+    margin-top: 50px;
     width:100%;
-    height: 300px;
+    height: 345px;
 }
 
 /*Invisible til break */
@@ -815,13 +815,12 @@ body{
 }
 
 .pastryItems3{
-    border: 1.4px solid #076F8C;
-    border-radius: 15px;
     height: 36%;
     margin-left: 0px;
     margin-top: 50px;
     margin-right: 0;
 
+    box-shadow: 2px 2px 5px grey;
     z-index: 1;
 
     display: none;
@@ -856,7 +855,6 @@ body{
 .pastryName3{
     margin: 20px 0;
     text-align: center;
-    border-bottom: 1px solid #076F8C;
     display: none;
 }
 
@@ -873,6 +871,7 @@ body{
     text-indent: 50px;
     margin-top: 40px;
     display: none;
+    text-align: justify;
 }
 
 .pastryDescription3 p{
@@ -902,12 +901,71 @@ body{
 
 
 .pastrySubImg3{
-    margin-top: 80px;
+    margin-top: 50px;
     width:100%;
-    height: 300px;
+    height: 345px;
     display: none;
 }
 
+.margin-left-10px{
+    margin-left: 10px;
+}
+
+.franchiseButton{
+
+}
+
+@media screen and (min-width: 1459px){
+
+    .affordaButton{
+        margin-top: 12%;
+    }
+
+    .affordaButton2{
+        margin-top: 12%;
+    }
+}
+
+@media screen and (min-width: 1243px){
+    .franchiseButton{
+        font-size: 1em;
+    }
+
+    .orderNow{
+        font-size: 1em;
+    }
+
+    .orderNow2{
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1150px){
+    .orderNow{
+        font-size: 0.9em;
+    }
+     .orderNow2{
+        font-size: 0.9em;
+    }
+    
+
+    .franchiseButton{
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 1149px) and (min-width: 992px){
+    .franchiseButton{
+        font-size: 0.6em;
+    }
+
+    .orderNow{
+        font-size: 0.6em;
+    }
+    .orderNow2{
+        font-size: 0.6em;
+    }
+}
 
 @media (max-width: 991px) and (min-width: 768px){
 
@@ -932,12 +990,38 @@ body{
         margin-top: 50%;
     }
 
+    .delightsSubImg .pastrySubImg{
+        margin-top: 40%;
+    }
+
+    .delightsSubImg2 .pastrySubImg2{
+        margin-top: 45%;
+    }
+
+     .orderNow{
+        font-size: 0.9em;
+    }
+
+    .orderNow2{
+        font-size: 0.9em;
+    }
+
+    .franchiseButton{
+        font-size: 0.9em;
+    }
 }
 
+/*Frozen Delights*/
 
 
 
 @media screen and (max-width: 767px){
+
+
+    .pastryItems{
+        box-shadow: 0 -5px 5px 0px grey;
+    }
+
     .pastryItems:after, .pastryItems:before {
         left: 50%;
         top: 100%;
@@ -966,6 +1050,15 @@ body{
         border-width: 50px;
         margin-top: 0;
         margin-left: -50px;
+    }
+
+    .pastryMainImg{
+        margin-bottom: 50px;
+
+    }
+
+    .pastryMainImg3{
+        margin-bottom: 50px;
     }
 
 /*Invisible*/
@@ -1035,7 +1128,8 @@ body{
     }
 
     .pastryItems3{
-
+        padding-top: 5px;
+        box-shadow: 0 -5px 5px 0px grey;
         display: block;
     }
 
@@ -1048,6 +1142,7 @@ body{
         width: 0;
         position: absolute;
         pointer-events: none;
+        display: block;
 
     }
 
@@ -1058,6 +1153,7 @@ body{
         border-width: 50px;
         margin-top: 0;
         margin-left: -50px;
+        display: block;
     }
 
     .pastryItems3:before{
@@ -1067,6 +1163,7 @@ body{
         border-width: 50px;
         margin-top: 0;
         margin-left: -50px;
+        display: block;
     }
 
 
@@ -1106,11 +1203,35 @@ body{
         display: block;
     }
 
-
-
 }
 
 
+@media screen and (max-width: 410px){
+    .franchiseButton{
+        font-size: 0.95em;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .orderNow{
+        font-size: 0.8em;
+    }
+    .orderNow3{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .franchiseButton{
+        font-size: 0.65em;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .orderNow{
+        font-size: 0.5em;
+    }
+}
 
 =======
 .scroll-main a {
