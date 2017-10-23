@@ -61,6 +61,13 @@ body{
     height: 100vh;
     outline: none;
 }
+#otherImages{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    outline: none;
+}
 #image2{
     background-image: url('../images/cakes/images/birthday_cakes_main.jpg');
     background-position: center;
@@ -213,7 +220,7 @@ body{
     transform: translate(-50%, -50%);
 }
 .page-title{
-    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-width: 1px;
     font-weight: bolder;
     text-align: center;
 }
@@ -457,7 +464,6 @@ body{
     font-size: 1.75em;
   }
 
-<<<<<<< HEAD
 /*Afforda Lechon*/
 
 #lechonHeader{
@@ -1233,7 +1239,7 @@ body{
     }
 }
 
-=======
+
 .scroll-main a {
     z-index: 2;
     display: inline-block;
@@ -1316,4 +1322,64 @@ body{
       opacity: 0;
     }
   }
->>>>>>> c32f847b2fee0dcd76a40ed207358b380542e442
+
+
+  /*-----footer------*/	
+
+.background-footer{
+    
+    background-color: #730099;
+        
+    
+}
+.margin-0-btm{
+    margin-bottom: 0px;
+}
+
+.background-footer ul{
+
+    padding: 5px 0 0 5px;
+    padding-top: 30px;
+
+}
+
+.footer li{
+
+    display: inline;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 2px solid white;
+    text-transform: uppercase;
+    font-family: century_gothic;
+}
+
+.pages .text-about {
+
+    border-right: none;
+}
+
+.footer li a{
+
+    color: white;
+    font-family: century_gothic; 
+}
+
+.background-footer .icons li {
+
+    list-style: none;
+    display: inline;
+    margin: 0 4px 0 4px;
+}
+
+.background-footer img.img-responsive {
+    margin-top: -50px;
+}
+    
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid lightgray;
+    background-color: rgba(0,0,0, .1);
+}
