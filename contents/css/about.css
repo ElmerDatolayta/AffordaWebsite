@@ -1,17 +1,18 @@
+@font-face{
+    font-family: century_gothic;
+    src: url("../fonts/century_gothic.ttf");
+}
 .about-us-page{
     background-image:url('../images/about/about-banner.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;   
 }
 .about-us-page .row .about-page-title{
-    font-size: 6em;
-    color: #d12135;
-    -webkit-text-stroke: 1px #fff;
-    text-shadow:
-      -1px -1px 0 #fff,  
-       1px -1px 0 #fff,
-       -1px 1px 0 #fff,
-        1px 1px 0 #fff;
+    font-family: century_gothic;
+    color: red;
+    font-size: 8em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0 white, -1px 1px 0 white, 1px -1px 0 white, -1px -1px 0 white, 0px 1px 0 white, 0px -1px 0 white, -1px 0px 0 white, 1px 0px 0 white, 2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white, 0px 2px 0 white, 0px -2px 0 white, -2px 0px 0 white, 2px 0px 0 white, 1px 2px 0 white, -1px 2px 0 white, 1px -2px 0 white, -1px -2px 0 white, 2px 1px 0 white, -2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white;
 }
 #about-info{
     padding:3%;
