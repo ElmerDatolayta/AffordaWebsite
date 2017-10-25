@@ -1233,6 +1233,301 @@ body{
     }
 }
 
+
+/*Services Page*/
+
+#productServices{
+    height: 150vh;
+    font-family: century_gothic;
+}
+
+.mainDescription{
+    font-size: 1.6em;
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.bold-text{
+    font-weight: bolder;
+}
+
+.choicesDiv{
+    padding: 50px 20px;
+}
+
+.choices{
+    color:#076E8C;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.choicesSnap{
+    margin-top: 50px;
+}
+
+.margin-top-700px{
+    margin-top: 50%;
+}
+
+.snapSlick0{
+    height: 50%;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.snap1{
+    transition: width 1s;
+    height: 50%;
+    width: 100%;
+    border: 5px solid #076E8C;
+    text-align: center;
+}
+
+.snap1:hover{
+    transition: width 1s;
+    width: 110%;
+}
+.snapDescription{
+    display: inline-block;
+    background-color: #076E8C;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.snapDescription h2{
+    font-size: 2vw;
+}
+
+.snapDescription2{
+    float: left;
+}
+
+.snapPrice{
+    float: right;
+}
+
+.snapDescription2 h2{
+    display: inline;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.snapPrice h2{
+    display: inline;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.servicesText{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+
+.servicesText li{
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+.servicesText p{
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+.servicesText2 p{
+    font-size: 1.6em;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+#logistics{
+    border-top: 1px solid #076E8C;
+}
+
+.padding-top-20px{
+    padding-top: 20px;
+}
+
+.servicesHeaders{
+}
+
+.philSlick{
+    height: 50%;
+    width: 100%;
+}
+
+.phil{
+    height: 50%;
+    width: 100%;
+}
+
+#fleet{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.fleetList{
+    width: 100%;
+    list-style-type: none;
+}
+
+.fleetList li{
+    font-size: 1.9em;
+    padding: 5px 50px;
+}
+
+.cabs{
+    padding-left: 40px;
+}
+
+#cab1{
+
+}
+
+#cab2{
+    
+}
+
+#cab3{
+    
+}
+
+#cab4{
+    
+}
+
+#cab5{
+    
+}
+
+#cab6{
+    
+}
+
+#cab1 img{
+    height: 40%;
+    width: 100%;
+}
+
+#cab2 img{
+    height: 40%;
+    width: 100%;
+}
+
+#cab3 img{
+    height: 40%;
+    width: 100%;
+}
+
+#cab4 img{
+    height: 40%;
+    width: 100%;
+}
+
+#cab5 img{
+    height: 40%;
+    width: 100%;
+}
+
+#cab6 img{
+    height: 40%;
+    width: 100%;
+}
+
+.cabList{
+
+}
+
+.fleetList .cabList.active{
+    background-color: #076E8C;
+    color: white;
+}
+
+ .cabList.active:after, .cabList.active:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+ .cabList.active:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #88b7d5;
+    border-width: 30px;
+    margin-top: -30px;
+}
+ .cabList.active:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 36px;
+    margin-top: -36px;
+}
+
+
+.faq-question .list-group-item {
+  border: none;
+  border-radius: 0;
+  padding: 20px;
+}
+.faq-question .list-group-item.active {
+  background-color: #00BEFD;
+}
+.faq-question .list-group-item.active .arrow-right {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #00BEFD;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .servicesText li{
+        font-size: 1.3em;
+    }
+
+    .servicesText p{
+         font-size: 1.3em;
+    }
+
+    .servicesText2 p{
+        font-size: 1.3em;
+    }
+
+}
+
+@media screen and (max-width: 544px){
+    .servicesHeaders{
+        font-size: 6vw;
+    }
+    .mainDescription p{
+        font-size: 4vw;
+    }
+
+    .servicesText p{
+        font-size: 4vw;
+    }
+
+    .servicesText2 p{
+        font-size: 4vw;
+    }
+    .choices{
+        font-size: 6vw;
+    }
+}
+
 =======
 .scroll-main a {
     z-index: 2;
