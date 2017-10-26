@@ -291,7 +291,7 @@ a{
 	background-repeat: no-repeat;
 	background-position-y: -235px;
 }
-}
+
 .icecream-section .slick-prev {
     left: 7px;
     position: absolute;
@@ -1309,3 +1309,6 @@ button#view:hover {
 	justify-content: center;
 }
 
+.slick-list, .slick-list * {
+	width: 100%;
+}

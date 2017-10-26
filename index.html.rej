@@ -1,0 +1,10 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -120,7 +120,7 @@
+ 			</div>
+ 		</div>
+ 	</section>
+-
++ -->
+ 	<section id="sectionProducts">
+ 	
+ 		<div class="container-fluid padding-zero">
