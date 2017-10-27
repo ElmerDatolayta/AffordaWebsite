@@ -1379,10 +1379,13 @@ body{
 .fleetList{
     width: 100%;
     list-style-type: none;
+    padding-left: 0;
+    padding-top: 1px;
+    z-index: 10;
 }
 
 .fleetList li{
-    font-size: 1.9em;
+    font-size: 1.9vw;
     padding: 5px 50px;
 }
 
@@ -1416,32 +1419,32 @@ body{
 
 #cab1 img{
     height: 40%;
-    width: 100%;
+    width: 110%;
 }
 
 #cab2 img{
     height: 40%;
-    width: 100%;
+    width: 110%;
 }
 
 #cab3 img{
-    height: 40%;
-    width: 100%;
+ height: 40%;
+    width: 110%;
 }
 
 #cab4 img{
-    height: 40%;
-    width: 100%;
+ height: 40%;
+    width: 110%;
 }
 
 #cab5 img{
-    height: 40%;
-    width: 100%;
+ height: 40%;
+    width: 110%;
 }
 
 #cab6 img{
     height: 40%;
-    width: 100%;
+    width: 110%;
 }
 
 .cabList{
@@ -1453,49 +1456,16 @@ body{
     color: white;
 }
 
- .cabList.active:after, .cabList.active:before {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
+.fleetList .cabList.active:before{
+    z-index: 1;
     width: 0;
-    position: absolute;
-    pointer-events: none;
-}
-
- .cabList.active:after {
-    border-color: rgba(136, 183, 213, 0);
-    border-right-color: #88b7d5;
-    border-width: 30px;
-    margin-top: -30px;
-}
- .cabList.active:before {
-    border-color: rgba(194, 225, 245, 0);
-    border-right-color: #c2e1f5;
-    border-width: 36px;
-    margin-top: -36px;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 26.0px 15px 0;
+    border-color: transparent #076E8C transparent transparent;
 }
 
 
-.faq-question .list-group-item {
-  border: none;
-  border-radius: 0;
-  padding: 20px;
-}
-.faq-question .list-group-item.active {
-  background-color: #00BEFD;
-}
-.faq-question .list-group-item.active .arrow-right {
-  position: absolute;
-  right: -30px;
-  top: 0;
-  width: 0;
-  height: 0;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 30px solid #00BEFD;
-}
 
 
 
@@ -1510,6 +1480,36 @@ body{
 
     .servicesText2 p{
         font-size: 1.3em;
+    }
+
+    #cab1 img{
+        height: 40%;
+        width: 100%;
+    }
+
+    #cab2 img{
+        height: 40%;
+        width: 100%;
+    }
+
+    #cab3 img{
+     height: 40%;
+        width: 100%;
+    }
+
+    #cab4 img{
+     height: 40%;
+        width: 100%;
+    }
+
+    #cab5 img{
+     height: 40%;
+        width: 100%;
+    }
+
+    #cab6 img{
+        height: 40%;
+        width: 100%;
     }
 
 }

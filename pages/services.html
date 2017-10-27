@@ -175,7 +175,7 @@
 				</div>	
 				<div id="fleet" class="row">
 					<div class="col-md-12 padding-top-20px"><h2 class="choices">Fleet:(sample)</h2></div>
-					<div class="col-md-6 cabs tab-content">
+					<div class="col-md-5 cabs tab-content">
 						<div id="cab1" class="tab-pane active">
 							<img src="../contents/images/services/phil1.jpg">
 						</div>
@@ -195,14 +195,14 @@
 							<img src="../contents/images/services/cab6.jpg">
 						</div>
 					</div>
-					<div class="col-md-6">
-						<ul class="fleetList">
-							<li class="active cabList arrow-left2" data-target="#cab1" data-toggle="tab">Multi cab (closed type)</li>
-							<li class="cabList arrow-left2" data-target="#cab2" data-toggle="tab">Multi cab (refrigerated type)</li>
-							<li class="cabList arrow-left2" data-target="#cab3" data-toggle="tab">Multi cab (open type)</li>
-							<li class="cabList arrow-left2" data-target="#cab4" data-toggle="tab">Motorbike (tricycle peddling type)</li>
-							<li class="cabList arrow-left2" data-target="#cab5" data-toggle="tab">Multi cab (closed type)</li>
-							<li class="cabList arrow-left2" data-target="#cab6" data-toggle="tab">Multi cab (closed type)</li>
+					<div class="col-md-7">
+						<ul class="fleetList nav-tabs">
+							<li class="cabList active" data-toggle="tab" data-target="#cab1">Multi cab (closed type)</li>
+							<li class="cabList" data-toggle="tab" data-target="#cab2">Multi cab (refrigerated type)</li>
+							<li class="cabList" data-toggle="tab" data-target="#cab3">Multi cab (open type)</li>
+							<li class="cabList" data-toggle="tab" data-target="#cab4">Motorbike (tricycle peddling type)</li>
+							<li class="cabList" class="cablist" data-toggle="tab" data-target="#cab5">Motorbike (tricycle delivery type)</li>
+							<li class="cabList" data-toggle="tab" data-target="#cab6">Tricycle "manual" (peddling type)</li>
 						</ul>
 					</div>
 				</div>
@@ -255,20 +255,6 @@
     });
   </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.philSlick').slick({
-      	dots:true,
-      });
-    });
-  </script>
-
-  <script type="text/javascript">
-	  jQuery('a').click(function(e) {
-	  e.preventDefault()
-	  $(this).tab('show')
-	})
-  </script>
 
 </body>
 </html>
